@@ -1,8 +1,8 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Expressiva Comunicação Visual</title>
   <style>
     * {
@@ -10,65 +10,34 @@
       padding: 0;
       box-sizing: border-box;
     }
-    body, html {
-      height: 100%;
-      font-family: Arial, sans-serif;
-    }
-    .hero {
-      background: url('bg.jpg') no-repeat center center/cover;
+
+    body {
+      background: url('background.png') no-repeat center center fixed;
+      background-size: cover;
       height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-end;
-      padding-bottom: 60px;
       color: white;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       text-align: center;
     }
-    .overlay {
-      background-color: rgba(0, 0, 0, 0.6);
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-    .content {
-      position: relative;
-      z-index: 2;
-    }
+
     h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
+      font-size: 3em;
+      text-shadow: 2px 2px 4px #000;
     }
+
     p {
-      font-size: 1.2rem;
-      max-width: 600px;
-      margin-bottom: 30px;
-    }
-    a.instagram-button {
-      background: #fff;
-      color: #000;
-      padding: 12px 24px;
-      text-decoration: none;
-      font-weight: bold;
-      border-radius: 6px;
-      transition: 0.3s;
-    }
-    a.instagram-button:hover {
-      background: #e1306c;
-      color: white;
+      font-size: 1.2em;
+      text-shadow: 1px 1px 3px #000;
     }
   </style>
 </head>
 <body>
-  <div class="hero">
-    <div class="overlay"></div>
-    <div class="content">
-      <h1>Expressiva Comunicação Visual</h1>
-      <p>Projetos | Design | Anúncios | Logomarca</p>
-      <a href="https://instagram.com/expressiva_comunicacaovisual" class="instagram-button" target="_blank">Siga no Instagram</a>
-    </div>
+  <div>
+    <h1>Expressiva</h1>
+    <p>Comunicação Visual</p>
   </div>
 </body>
 </html>
